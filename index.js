@@ -214,7 +214,6 @@ const handleInputForm = ({ currentTarget, target }) =>{
                 allFilled = false;
             }
         });
-
         formBtnSubmit.disabled = !allFilled;
     }
 }

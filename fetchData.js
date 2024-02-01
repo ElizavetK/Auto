@@ -5,7 +5,7 @@ export const fetchData = async () =>{
             throw new Error(`HTTP error, status: ${response.status}`);
         }
         return await response.json();
-    }
+        }
     catch{
         console.error(`Error in receiving of date ${error}`);
     }
